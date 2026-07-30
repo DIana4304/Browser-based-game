@@ -23,12 +23,13 @@
     "test": ""
   },
   "devDependencies": {
-    "@babel/cli": "^8.0.4",
-    "@babel/core": "^8.0.1",
-    "@babel/preset-env": "^8.0.2",
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
     "eslint": "^8.57.1"
   },
   "dependencies": {
-    "core-js": "^3.49.0"
+    "core-js": "^3.22.0",
+    "regenerator-runtime": "^0.14.1"
   }
 }
