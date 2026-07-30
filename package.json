@@ -19,12 +19,14 @@
   "main": "index.js",
   "scripts": {
     "build": "babel src -d dist",
+    "lint": "eslint .",
     "test": ""
   },
   "devDependencies": {
     "@babel/cli": "^8.0.4",
     "@babel/core": "^8.0.1",
-    "@babel/preset-env": "^8.0.2"
+    "@babel/preset-env": "^8.0.2",
+    "eslint": "^8.57.1"
   },
   "dependencies": {
     "core-js": "^3.49.0"
